@@ -1,7 +1,8 @@
-div > p{
-    color: blue;
+/* đứng sát ngay sau dùng + */
+h1 + h2{
+    color: red;
 }
 
-block p{
-    color: red;
+.demo2 + h3{
+    color: blue;
 }
