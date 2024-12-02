@@ -1,3 +1,7 @@
-.demo.demo2{
-    color: red;
+div p{
+    color: blue;
+}
+
+.loichuc p{
+    font-size: 30px;
 }
