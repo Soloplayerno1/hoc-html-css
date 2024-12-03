@@ -1,3 +1,14 @@
-[href]{
+#line2 ~ p:active{
     color: red;
+    font-size: 30px;
+}
+
+/* link khi chưa truy cập */
+.click_me:link{
+    color:chocolate
+}
+
+/* link khi đã truy cập */
+.click_me:visited{
+    color: pink;
 }
