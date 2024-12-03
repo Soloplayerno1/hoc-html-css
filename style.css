@@ -1,14 +1,16 @@
-#line2 ~ p:active{
+/* thẻ con đầu tiên */
+p:first-child{
     color: red;
     font-size: 30px;
 }
 
-/* link khi chưa truy cập */
-.click_me:link{
-    color:chocolate
+/* thẻ con cuối cùng */
+p:last-child{
+    color: red;
+    font-size: 30px;
 }
 
-/* link khi đã truy cập */
-.click_me:visited{
+/* thẻ con thứ n */
+p:nth-child(2){
     color: pink;
 }
