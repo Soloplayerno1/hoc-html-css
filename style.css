@@ -1,16 +1,10 @@
-.padding{
-    width: 10rem;
-    height: 10rem;
-    background-color: blue;
-    overflow: hidden;
-
-    padding: 10px; 
-
-}
-.margin{
-    height: 10rem;
-    width: 10rem;
-    background-color: red;
-    margin-top: -80px;
-    margin-left: 80px;
+.boxed{
+    height: 6.25rem;
+    width: 6.25rem;
+    background-color: orange;
+    border: 5px solid black;
+    padding: 10px;
+    
+    /* kích thước của border và padding ăn vào witdh với height */
+    box-sizing: border-box;
 }
