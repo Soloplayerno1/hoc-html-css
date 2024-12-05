@@ -1,16 +1,9 @@
-/* thẻ con đầu tiên */
-p:first-child{
-    color: red;
-    font-size: 30px;
-}
-
-/* thẻ con cuối cùng */
-p:last-child{
-    color: red;
-    font-size: 30px;
-}
-
-/* thẻ con thứ n */
-p:nth-child(2){
-    color: pink;
+.background{
+    background-color: #00aefd;
+    /* width: 100px; */
+    /* height: 100px; */
+    /* overflow-x:hidden; */
+    /* overflow-y: auto; */
+    min-height: 100px;
+    max-width: 50%;
 }
