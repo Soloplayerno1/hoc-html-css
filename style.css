@@ -1,10 +1,14 @@
 /* font-size 100% = 16px */
 /* 1em = 1rem = 16px */
 .em{
+    text-align: center;
     width: 10em;
     height: 10em;
     background-color: #ffa400;
-    font-size: 32px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    
     /* là đơn vị sẽ phụ thuộc vào font-size của chính nó hoặc phần tử chứa nó */
 }
 .rem{
@@ -12,5 +16,6 @@
     height: 10rem;
     background-color: #ff7870;
     font-size: 32px;
-    /* là đơn vị sẽ phụ thuộc vào font-size của thẻ html */
+    border: 2px solid black;
+    border-radius: 40px 10px 40px 10px;
 }
