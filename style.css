@@ -1,21 +1,14 @@
 /* font-size 100% = 16px */
 /* 1em = 1rem = 16px */
-.em{
-    text-align: center;
-    width: 10em;
-    height: 10em;
-    background-color: #ffa400;
-    margin-bottom: 20px;
-    border: 2px solid black;
-    border-radius: 50%;
-    
-    /* là đơn vị sẽ phụ thuộc vào font-size của chính nó hoặc phần tử chứa nó */
+html{
+    font-size: 62.5%;
 }
-.rem{
-    width: 10rem;
-    height: 10rem;
-    background-color: #ff7870;
-    font-size: 32px;
-    border: 2px solid black;
-    border-radius: 40px 10px 40px 10px;
+.margin{
+    width: 14rem;
+    height: 14rem;
+    background-color: red;
+    margin: 10px;
+    /* set center */
+    margin-left: auto;
+    margin-right: auto;
 }
