@@ -29,3 +29,17 @@ body{
     /* hiển thị dấu 3 chấm tới hàng thứ 3 */
     display: -webkit-box;
 }
+img{
+  display: block;    
+  max-width: 100%;
+}
+.image{
+    width: 20rem;
+    height: 20rem;
+    /* Thẻ inline không thể dùng margin do width và height cố định */
+    margin: 0 auto;
+    display: inline-block;
+}
+.image-wrap{
+    text-align: center;
+}
