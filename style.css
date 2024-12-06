@@ -1,9 +1,31 @@
-a{
-    color: white;
-    text-decoration: none;
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    display: block;
-    display: none;
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.font{
+    /* Khoảng cách mỗi dòng */
+    line-height: 1.5;
+
+    /* Căn giữa */
+    text-align: center;
+    max-width: 300px;
+
+    /* căn đều 2 bên */
+    text-align: justify;
+
+    /* khoảng cách mỗi ký tự */
+    letter-spacing: 1px;
+
+    /* khoảng cách giữa các từ */
+    word-spacing: 2px;
+
+    /* chữ trên 1 hàng */
+    white-space: nowrap;
+
+    /* dấu 3 chấm */
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /* hiển thị dấu 3 chấm tới hàng thứ 3 */
+    display: -webkit-box;
 }
