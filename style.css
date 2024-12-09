@@ -4,37 +4,21 @@
     box-sizing: border-box;
 }
 
-.child{
-    padding-top: 40px;
-    text-align: center;
+.first{
+    width: 70%;
     height: 100px;
-    width: 100px;
-    background-color: red;
+    background-color: orange;
 
+    /* Phần tử được set thuộc tính float được nổi lên trước phần tử không được set */
+    float: left;
 }
 
-.container{
-    background: skyblue;
-    margin: 20px;
-    height: 500px;
-    display: flex;
-    /* Chọn chiều, mặc định là row */
-    flex-direction: row;
-
-    /* Căn chỉnh phần tử con theo chiều đã chọn */
-    justify-content: flex-start;
-    justify-content: flex-end;
-    justify-content: center;
-
-    /* Giãn đều các phần tử */
-    /* justify-content: space-around; */
-
-    /* Căn các phần tử trong theo chiều còn lại */
-    align-items: center;
-
+.sec{
+    width: 30%;
+    height: 100px;
+    background-color: skyblue;
 }
 
-.mid{
-    /* Tự căn chỉnh phần tử trong khối div */
-    align-self: flex-start;
+.parent{
+
 }
