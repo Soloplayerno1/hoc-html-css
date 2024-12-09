@@ -1,45 +1,40 @@
-body{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
 }
-.font{
-    /* Khoảng cách mỗi dòng */
-    line-height: 1.5;
 
-    /* Căn giữa */
+.child{
+    padding-top: 40px;
     text-align: center;
-    max-width: 300px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
 
-    /* căn đều 2 bên */
-    text-align: justify;
-
-    /* khoảng cách mỗi ký tự */
-    letter-spacing: 1px;
-
-    /* khoảng cách giữa các từ */
-    word-spacing: 2px;
-
-    /* chữ trên 1 hàng */
-    white-space: nowrap;
-
-    /* dấu 3 chấm */
-    overflow: hidden;
-    text-overflow: ellipsis;
-
-    /* hiển thị dấu 3 chấm tới hàng thứ 3 */
-    display: -webkit-box;
 }
-img{
-  display: block;    
-  max-width: 100%;
+
+.container{
+    background: skyblue;
+    margin: 20px;
+    height: 500px;
+    display: flex;
+    /* Chọn chiều, mặc định là row */
+    flex-direction: row;
+
+    /* Căn chỉnh phần tử con theo chiều đã chọn */
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+
+    /* Giãn đều các phần tử */
+    /* justify-content: space-around; */
+
+    /* Căn các phần tử trong theo chiều còn lại */
+    align-items: center;
+
 }
-.image{
-    width: 20rem;
-    height: 20rem;
-    /* Thẻ inline không thể dùng margin do width và height cố định */
-    margin: 0 auto;
-    display: inline-block;
-}
-.image-wrap{
-    text-align: center;
+
+.mid{
+    /* Tự căn chỉnh phần tử trong khối div */
+    align-self: flex-start;
 }
